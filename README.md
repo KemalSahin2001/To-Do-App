@@ -1,8 +1,5 @@
-
 ```markdown
 # To-Do List Application
-
-![To-Do List GUI](tests/img/gui.png)
 
 A simple, user-friendly To-Do List application built with Python and Tkinter. This application helps you manage your tasks effectively by allowing you to add, edit, complete, and delete tasks with a graphical interface.
 
@@ -10,13 +7,13 @@ A simple, user-friendly To-Do List application built with Python and Tkinter. Th
 
 - **Add Tasks**: Create new tasks with a title, description, and due date using a calendar widget.
 - **Edit Tasks**: Modify task details at any time.
-- **Complete/Incomplete**: Mark tasks as complete or revert them to incomplete.
+- **Complete**: Mark tasks as complete.
 - **Remove Tasks**: Delete tasks when they are no longer needed.
 - **Persistent Storage**: Automatically saves tasks to a JSON file and loads them on startup.
 
 ## 🛠️ Requirements
 
-- **Python 3.8
+- **Python 3.x**
 - **tkcalendar==1.6.1**
 - **pytest==7.1.2** (optional, for testing)
 
@@ -54,7 +51,7 @@ A simple, user-friendly To-Do List application built with Python and Tkinter. Th
 
 ### Main Application Window
 
-![GUI Image](tests/img/gui.png)
+![GUI Image](todo_app/tests/img/gui.png)
 
 ## 🧪 Testing
 
@@ -89,40 +86,44 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-For any questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, please reach out to [kmlshnbusiness@gmail.com](mailto:kmlshnbusiness@gmail.com).
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Kemal Şahin](https://github.com/KemalSahin2001)
 
 ```
 
 ### Explanation of Changes
 
-1. **Images**: The image of the GUI you provided (`tests/img/gui.png`) is used in the screenshots section and the introduction. 
+1. **Correct Image Path**: The path to your image is now `todo_app/tests/img/gui.png`. Ensure that this matches your repository structure exactly as GitHub is case-sensitive and path-sensitive.
 
-2. **Testing Section**: I've included a note about the tests being planned but not implemented yet, making it clear to potential contributors that this is an area they might help with.
+2. **Contact Information**: Updated with your email address for feedback and questions.
 
-3. **GitHub Links**: Remember to replace `https://github.com/yourusername/your-repo-name.git` and other placeholders with your actual repository link.
+3. **GitHub Repository URL**: Updated to `https://github.com/KemalSahin2001/To-Do-App.git` for accurate clone instructions.
 
-4. **Screenshots**: I've provided placeholders for sections where additional screenshots might be included, enhancing the visual appeal.
+4. **Name and Profile**: Personalized with your GitHub profile link and name.
 
-5. **Installation Instructions**: Simple steps for users to get started quickly.
+### Steps to Finalize
 
-6. **Contributions**: Outlines how others can contribute, encouraging collaboration.
+1. **Check Image Path**: Double-check that the `gui.png` image path matches exactly in the repository. If the path is different, adjust accordingly.
 
-### Upload to GitHub
-
-Once you've reviewed and made any additional adjustments to the `README.md`, push it to GitHub:
+2. **Push `README.md` to GitHub**: Once you've ensured all paths are correct, push your changes to GitHub.
 
 ```bash
 git add README.md
-git commit -m "Add README.md with detailed instructions and images"
+git commit -m "Add README.md with project details and image"
 git push
 ```
 
+### Verify on GitHub
+
+1. **Navigate to Your GitHub Repository**: [To-Do-App on GitHub](https://github.com/KemalSahin2001/To-Do-App)
+2. **Check the `README.md` Rendering**: Ensure that the image displays correctly and all links work as expected.
+3. **Review**: Look for any issues with formatting or content that you might want to refine further.
+
 ### Conclusion
 
-This `README.md` provides a comprehensive overview of your application, helping users and contributors understand what your project is about and how to interact with it. It also highlights areas where community help could be beneficial, such as implementing tests.
+Your project now has a well-documented `README.md` that outlines its features, setup instructions, and usage. This not only makes it easier for others to understand and use your application but also encourages contributions.
 
-Feel free to adjust the content further to fit any specific aspects of your project you'd like to emphasize. If you need more help or want to expand any part, just let me know!
+Feel free to make any further customizations, and if you have any questions or need additional changes, let me know!
